@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.fondonav{
+    background-color: #9F9FED;
+    width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #1B4079;
+}
+
+.logoatlas{
+    display: flex;
+    justify-content: left;
+    width: 15rem;
+    height: 12rem;  
+}
+
+.items{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3.5rem;
+}
+
+li{
+    margin-left: 5rem;
+    list-style: none;
+    }
+
+a:link{
+    text-decoration: none;
+}
+
+.fondo{
+    background-color:#D9FFF8 ;
+}
+
+.centro{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D9FFF8;
+}
+.centro1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.centro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 5rem;
+    height: 10rem;
+    background-color: #52796F;
+}
+
+.centro3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 5rem;
+    height: 100%;
+}
+
+.centro4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 5rem;
+    height: 100%;
+    border: .5rem solid black;
+}
+
+h2{
+    display: flex;
+}
+
+.porque{
+    display: flex;
+    justify-content:center;
+}
+
+.txtporque{
+    font-size: 6rem;
+    color: #1b2179;
+}
+
+.links{
+    font-size: 4.5rem;
+    color: black;
+    display: flex;
+    height: 10rem;
+}
+
+.conocenos{
+    margin-top: 4.5rem;
+    color: #1B4079;
+}
+
+
+.imggim{
+    width: 80rem;
+    height: 60rem;
+    margin-top: 2.2rem;
+}
+
+.txtatlas{
+    font-size: 3.6rem;
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.imagen{
+    width: 60rem;
+    height: 50rem;    
+    align-items: stretch;
+    justify-content: center;
+    border: .2rem solid black;
+    margin: 2rem;
+}
+
+.serv{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.txtimg{
+    font-size: 4.2rem;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    width: 45rem;
+    height: 45rem; 
+    margin: 5rem 0rem 0rem 7rem ;  
+}
+
+.txtimg2{
+    font-size: 4.2rem;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 45rem;
+    height: 45rem; 
+    margin: 4rem 7rem 0rem 0rem ;  
+}
+
+.txtimg3{
+    font-size: 4.2rem;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 45rem;
+    height: 45rem; 
+    margin: 10rem 0rem 0rem 5rem
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.sumate{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 5rem;
+}
+
+footer{
+    background-color: #9F9FED;
+}
+.footer{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    list-style: none;
+
+}
+
+.footerimg{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.mapfooter{
+    height: 20rem;
+    width: 30rem;
+    margin-top: 2rem;
+    background-color: #1B4079;
+    display:flex;
+    justify-content: center;
+}
+
+.imgfooter{
+    width: 9rem;
+    height: 9rem;
+}
+
+.derechos{
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+@media screen and (max-width:500px) {
+    h1{
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        color: #1B4079;
+    }
+    
+    .logoatlas{
+        display: flex;
+        justify-content: left;
+        width: 8rem;
+        height: 5rem;  
+    }
+    
+    .items{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 2rem;
+    }
+    
+    li{
+        margin-left: 3rem;
+        list-style: none;
+        }
+    
+    a:link{
+        text-decoration: none;
+    }
+    
+    .fondo{
+        background-color:#D9FFF8 ;
+    }
+    
+    .centro{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #D9FFF8;
+    }
+    .centro1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
+    .centro2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        font-size: 2.5rem;
+        height: 10rem;
+        background-color: #52796F;
+    }
+    
+    .centro3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        font-size: 2.5rem;
+        height: 100%;
+    }
+    
+    .centro4{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        font-size: 2.5rem;
+        height: 100%;
+        border: .5rem solid black;
+    }
+    
+    h2{
+        display: flex;
+    }
+    
+    .porque{
+        display: flex;
+        justify-content:center;
+    }
+    
+    .txtporque{
+        font-size: 2rem;
+        color: #1b2179;
+    }
+    
+    .links{
+        font-size: 2rem;
+        color: black;
+        display: flex;
+        height: 10rem;
+    }
+    
+    .conocenos{
+        margin-top: 2rem;
+        color: #1B4079;
+    }
+    
+    
+    .imggim{
+        width: 15rem;
+        height:10rem;
+        margin-top: 2.2rem;
+    }
+    
+    .txtatlas{
+        font-size: 3.6rem;
+        width: 15rem;
+        height: 10rem;
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .imagen{
+        width: 30rem;
+        height: 20rem;    
+        align-items: stretch;
+        justify-content: center;
+        border: .2rem solid black;
+        margin: 2rem;
+    }
+    
+    .serv{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .txtimg{
+        font-size: 2.2rem;
+        display: flex;
+        text-align: right;
+        justify-content: center;
+        width: 25rem;
+        height: 25rem; 
+        margin: 2rem 0rem 0rem 3rem ;  
+    }
+    
+    .txtimg2{
+        font-size: 2.2rem;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        width: 25rem;
+        height: 25rem; 
+        margin: 2rem 3rem 0rem 0rem ;  
+    }
+    
+    .txtimg3{
+        font-size: 2.2rem;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        width: 25rem;
+        height: 25rem; 
+        margin: 3rem 0rem 0rem 2rem
+    }
+    
+    .video{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+    .sumate{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    
+    footer{
+        background-color: #9F9FED;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;    
+        align-items: center;
+        list-style: none;
+    
+    }
+    
+    .footerimg{
+        display: flex;
+        justify-content: right;
+        width: 100%;
+    }
+    
+    .mapfooter{
+        height: 8rem;
+        width: 12rem;
+        margin-top: 2rem;
+        background-color: #1B4079;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .imgfooter{
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .derechos{
+        text-align: center;
+        justify-content: center;
+        font-size: 3rem;
+    }
+} 
+    
+
+
+.fondoimg{
+    background-image: url(../img/fondoGim.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.fondoimg2{
+    background-image: url(../img/fondoUnete.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.fondoimg3{
+    background-image: url(../img/fondoContacto.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.fondoimg4{
+    background-color: #D9FFF8;
+    background-size: 100% 100%;
+}
+.exp{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.experiencia{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 10rem;
+    color: #D9FFF8;
+    width: 30%;
+    height: 100%;
+    margin-top: 10rem;
+    border: 0.5rem solid #D9FFF8;
+    border-radius: 2rem;
+}
+
+.experiencia1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: #1B4079;
+    width: 100rem;
+    height: 45rem;
+    margin-top: 5rem;
+}
+
+.experiencia2{
+    display: flex;
+    justify-content: center;
+    width: 90rem;
+    height: 80rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    border: 0.5rem solid #D9FFF8;
+}
+
+.formulario{
+    width: 100rem;
+    background-color: #9F9FED;
+    padding: 10rem;
+    margin: auto;
+    margin-top: 15rem;
+    border-radius: 1rem;
+}
+
+.formulario1{
+    width: 100rem;
+    background-color: #9F9FED;
+    padding: 10rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.datos{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.control{
+    width: 100%;
+    background-color: #D9FFF8;
+    padding: 3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    border: 0.5rem solid #1B4079;
+    font-size: 3rem;
+}
+
+.formulario h3{
+    height: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.formulario1 h3{
+    height: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.boton{
+    width: 100%;
+    background-color: #52796F;
+    border-radius: 0.5rem;
+    padding: 4rem;
+    color: white;
+    margin: 4rem 0rem;
+    font-size: 3rem;    
+}
+
+.escribir{
+    width: 100%;
+    height: 40rem;
+    border-radius: 2rem;
+    border: .5rem solid #1B4079;
+    color: black;
+    font-size: 3rem;
+}
+
+.ordencontacto{
+    margin: 10rem 0;
+}
+
+.eleccion{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: #1B4079;
+}
+
+.imgplan{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 35%;
+}
+
+.txtcombos{
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    color: #9F9FED;
+    margin: 2rem 0;
+    border: 0.5rem solid black;
+}
+
