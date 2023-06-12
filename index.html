@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-    <header class="fondonav">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header id="header" class="fondonav">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand " href="./index.html"><h1 class="ATLAS">ATLAS CENTRO DE ENTRENAMIENTO INTEGRAL</h1><img src="./img/atlas.jpg" alt="Logo de Atlas" width="40" height="34" class="d-inline-block align-text-top logoatlas rounded-circle">
                 </a>
@@ -46,7 +46,7 @@
     </header>
     <main class="fondo">
         <SECTION >
-            <article>
+            <article class="tamaño1">
                 <div class="centro">
                     <div class="centro1">
                         <H2 class="txtporque">PORQUE ATLAS CEI</H2>
@@ -69,43 +69,44 @@
         </SECTION>
         <section class="container fluid centro3">
             <ARTIcle class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 alturacentro">
                     <H3 class="serv">MUSCULACION</H3>
                     <img class="imagen rounded"  src="./img/musculacion.jpg" alt=" musculacion">
                 </div>
-                <div class="col-lg-6 txtimg">
+                <div class="col-lg-6 txtimg alturacentro">
                     <P>La musculación es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su propio nombre indica, su objetivo es el desarrollo de los músculos</P>
-                </div>
-                <div class="col-lg-6 txtimg2">
-                    <p>Es un ejercicio aeróbico y cardiovascular que se realiza sobre una bicicleta estática en el que se trabaja el tren inferior: las piernas y los glúteos</p>
-                </div>
-                <div class="col-lg-6">
+                </div>                
+                <div class="col-lg-6 alturacentro">
                     <h3 class="serv">SPINING</h3>
                 <img class="imagen rounded" src="./img/spining.jpg" alt="spining">
+                </div>
+                <div class="col-lg-6 txtimg2 alturacentro">
+                    <p>Es un ejercicio aeróbico y cardiovascular que se realiza sobre una bicicleta estática en el que se trabaja el tren inferior: las piernas y los glúteos</p>
                 </div>                
-                <div class="col-lg-6">
+                <div class="col-lg-6 alturacentro">
                     <h3 class="serv">NUTRICION</h3>                                    
                     <img class="imagen rounded" src="./img/nutricion.jpg" alt="nutricion"> 
                 </div>
-                <div class="col-lg-6 txtimg">
+                <div class="col-lg-6 txtimg alturacentro">
                     <p>Adaptar las comidas del paciente según sus necesidades, teniendo en cuenta el tipo de ejercicio y la intensidad, buscando mejorar el rendimiento y favorecer la salud</p>
-                </div>
-                <div class="col-lg-6 txtimg2">
-                    <p>Enfoque en la prevención y manejo de lesiones en deportistas y en pacientes con alguna dolencia que estén realizando ejercicio terapéutico para su tratamiento</p>
-                </div>
-                <div class="col-lg-6">
+                </div>                
+                <div class="col-lg-6 alturacentro">
                     <h3 class="serv">REHABILITACION</h3>                                   
                 <img class="imagen rounded" src="./img/rehabilitacion.webp" alt="rehabilitacion">
                 </div>
+                <div class="col-lg-6 txtimg2 alturacentro">
+                    <p>Enfoque en la prevención y manejo de lesiones en deportistas y en pacientes con alguna dolencia que estén realizando ejercicio terapéutico para su tratamiento</p>
+                </div>
                 <div class="col-lg-12">
-                    <iframe class="video rounded" width="100%" height="800" src="https://www.youtube.com/embed/XLrQy6Ytp_U?clip=UgkxmydVLzHlhGrT63S4c5nDGAQL9H8nhStI&amp;clipt=EKBHGO3xAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                    <iframe class="video rounded" width="100%" height="500" src="https://www.youtube.com/embed/XLrQy6Ytp_U?clip=UgkxmydVLzHlhGrT63S4c5nDGAQL9H8nhStI&amp;clipt=EKBHGO3xAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
                 </div>
             </ARTIcle>
         </section>
         <DIV class="sumate">
-            <strong><a class="link" href="./pages/contacto.html">SUMATE</a></strong>
+            <ul>
+                <li><strong><a class="link linkdos" href="./pages/contacto.html">SUMATE</a></strong></li>
+            </ul>            
         </DIV>
-        
     </main>
     <footer>  
         <ul class="footer">
@@ -114,6 +115,7 @@
                 <li><a href="./pages/contacto.html"><img class="imgfooter" src="./img/580b57fcd9996e24bc43c543.png" alt="simbolo de whatsapp"></li></a>
                 <li><a href="./pages/contacto.html"><img class="imgfooter" src="./img/580b57fcd9996e24bc43c521.png" alt="simbolo de instagram"></li></a>
                 <li><a href="./pages/contacto.html"><img class="imgfooter" src="./img/584ac2d03ac3a570f94a666d.png" alt="simbolo de facebook"></li></a>
+                <li><a href="#header"><img class="flechaarriba" src="./img/flechaarriba.png" alt="flecha arriba"> </a></li>
             </ul>
         </ul> 
         <h4 class="derechos">©.Todos los derechos reservados</h4>
