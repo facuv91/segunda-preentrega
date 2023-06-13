@@ -1,0 +1,35 @@
+.fondoimg2{
+    background-image: url(../img/fondoUnete.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.experiencia2{
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 40rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    border: 0.5rem solid #0f1780;
+}
+
+.formulario{
+    width: 75rem;
+    background-color: #9F9FED;
+    padding: 10rem;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    border: 0.5rem solid black ;
+}
+
+
+
+.formulario h3{
+    height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+

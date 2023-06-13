@@ -1,0 +1,44 @@
+.centro5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 5rem;
+    height: 100%;
+}
+
+.fondoimg4{
+    background-color: #D9FFF8;
+    background-size: 100% 100%;
+    background-image: url(../img/fondoGim.jpg);
+}
+
+.eleccion{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    border: 0.5rem solid black;
+    font-size: 2.5rem;
+    color: black;
+    background-color: #52796F;
+}
+
+
+.imgplan{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+    border-radius: 2rem;
+    border: 0.5rem solid black;
+}
+
+.txtcombos{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #9F9FED;
+    margin: 2rem 0;
+    border: 0.3rem solid black;
+}

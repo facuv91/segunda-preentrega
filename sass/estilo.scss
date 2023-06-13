@@ -1,0 +1,53 @@
+@use "index";
+@use "sobreNosotros";
+@use "contacto";
+@use "elegiTuPlan";
+@use "trabajaConNosotros";
+@use "assets/footer";
+@use "responsive";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.fondonav{
+    background-color: #9F9FED;
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: #1B4079;
+}
+
+.logoatlas{
+    display: flex;
+    justify-content: left;
+    width: 10rem;
+    height: 8rem;  
+}
+
+.items{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+
+li{
+    margin-left: 5rem;
+    list-style: none;
+    }
+
+a:link{
+    text-decoration: none;
+}
+
+

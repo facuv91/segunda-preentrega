@@ -1,0 +1,126 @@
+.fondo{
+    background-color:#D9FFF8 ;
+    width: 100%;
+}
+
+.tamaño1{
+    width: 100%;
+    height: 50rem;
+}
+
+.centro{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D9FFF8;
+}
+.centro1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.centro2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 2.5rem;
+    height: 6rem;
+    background-color: #52796F;
+}
+
+.centro3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 5rem;
+    height: 100%;
+}
+
+.txtporque{
+    font-size: 3rem;
+    color: #1b2179;
+}
+
+.links{
+    font-size: 3rem;
+    color: black;
+    display: flex;
+    height: 5rem;
+}
+
+.conocenos{
+    margin-top: 1.5rem;
+    color: #1B4079;
+}
+
+
+.imggim{
+    width: 60rem;
+    height: 40rem;
+    margin-top: 2.2rem;
+}
+
+.txtatlas{
+    font-size: 2.3rem;
+    width: 50rem;
+    height: 28rem;
+    display: flex;
+    align-items: center;
+    
+}
+.alturacentro{
+    height: 30rem;
+}
+
+.imagen{
+    width: 30rem;
+    height: 25rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .2rem solid black;
+    margin: 2rem 2rem 2rem 12rem;
+}
+
+.serv{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.txtimg{
+    font-size: 2rem;
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+    width: 32rem;
+    margin: 5rem 0rem 0rem 7rem ;  
+}
+
+.txtimg2{
+    font-size: 2rem;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    width: 25rem;    
+    margin: 5rem 7rem 0rem 18rem ;  
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.sumate{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+    background-color: #52796F;
+}

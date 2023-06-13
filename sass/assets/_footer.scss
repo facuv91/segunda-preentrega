@@ -1,0 +1,44 @@
+.flechaarriba{
+    display: flex;
+    justify-content:flex-end;
+    
+    width: 4rem;
+    height: 4rem;
+}
+
+footer{
+    background-color: #9F9FED;
+}
+.footer{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    list-style: none;
+
+}
+
+.footerimg{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.mapfooter{
+    height: 10rem;
+    width: 15rem;
+    margin-top: 2rem;
+    background-color: #1B4079;
+    display:flex;
+    justify-content: center;
+}
+
+.imgfooter{
+    width: 4rem;
+    height: 4rem;
+}
+
+.derechos{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
