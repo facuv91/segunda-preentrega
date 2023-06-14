@@ -4,7 +4,8 @@
 @use "elegiTuPlan";
 @use "trabajaConNosotros";
 @use "assets/footer";
-@use "responsive";
+@use "responsiveMobile";
+@use "responsiveTablet";
 
 *{
     margin: 0;
@@ -42,7 +43,7 @@ h1{
 }
 
 li{
-    margin-left: 5rem;
+    margin-left: 2rem;
     list-style: none;
     }
 
